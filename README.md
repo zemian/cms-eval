@@ -72,14 +72,11 @@ https://vuepress.vuejs.org/guide/
 
 Use Markdown and VueJS to power blog or documentation site.
 
-
 ### Gridsome 
 
 https://gridsome.org
 
 Gridsome makes it easy for developers to build static generated websites & apps that are fast by default 🚀
-
-Is this heavy?
 
 ### https://www.netlifycms.org/
 
@@ -88,8 +85,6 @@ Netlify CMS is an open source content management system for your Git workflow th
 A ReactJS based app.
 
 ### https://www.contentful.com/
-
-We make content unified, structured and endlessly extensible.
 
 A content management system with REST API support.
 
