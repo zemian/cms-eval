@@ -65,10 +65,33 @@ This really bugs me.
 	- Well java is my bread and butter lang, so I thought I will stick with this. Also
 	the asciidoc support is good. So I choose this to make my github pages. 
 
+
+### VuePress
+
+https://vuepress.vuejs.org/guide/
+
+Use Markdown and VueJS to power blog or documentation site.
+
+
 ### Gridsome 
 
 https://gridsome.org
 
 Gridsome makes it easy for developers to build static generated websites & apps that are fast by default 🚀
 
-See learn-gridsome
+Is this heavy?
+
+### https://www.netlifycms.org/
+
+Netlify CMS is an open source content management system for your Git workflow that enables you to provide editors with a friendly UI and intuitive workflows.
+
+A ReactJS based app.
+
+### https://www.contentful.com/
+
+We make content unified, structured and endlessly extensible.
+
+A content management system with REST API support.
+
+
+

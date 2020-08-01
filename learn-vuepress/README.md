@@ -1,10 +1,11 @@
 # learn-vuepress
 
-> 
-
 ## Development
 
+Setup `yarn global add vuepress`
+
 ```bash
+yarn install
 yarn dev
 yarn build
 ```
