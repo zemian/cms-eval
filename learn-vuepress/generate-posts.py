@@ -10,10 +10,10 @@ def create_post(seq):
 	print(f"Generating file: {fname}")
 	with open(fname, 'w') as f:
 		f.write(f"""---
-layout: post
-title:  "Bulk Test #{seq}"
-date:   {fdate}
-categories: test
+date: {fdate}
+tag: 
+	- test
+title: Bulk Test #{seq}
 ---
 
 > This is test #{seq}
