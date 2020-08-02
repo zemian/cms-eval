@@ -3,6 +3,8 @@ A history of many CMS - Content Management System I have used and evaluated.
 I have used quite a few CMS for blogging purpose in the past. Some I like,
 some not so much.
 
+NOTE: My current blog site is at https://zemian.github.io
+
 
 ## Hisotry of CMS I used
 
@@ -31,18 +33,18 @@ Hosted in Heruko and my own server.
 
 * Too much work to just maintain CMS for personal use!
 
-### https://github.com/zemian/zemian.github.io-site
-
-Use jbake (static site generator) to publish blogs
-
-Result is then publish to zemian.github.io
-
-* Too much work to publish an article!
-
 ### https://medium.com/@zemiandeng
 
 It looks good and easy to use, but it has limit of visists on free users!
 This really bugs me.
+
+### https://github.com/zemian/zemian.github.io
+
+This is just a static web site hosted by GitHub (Pages).
+
+I used https://github.com/zemian/zemian.github.io-site and jbake (static site generator) 
+to create the blog source, then publish to here.
+
 
 
 ## CMS Evaluation
