@@ -1,6 +1,6 @@
 # learn-vuepress
 
-This project is generated using `yarn create vuepress learn-vuepress` with blog theme.
+> This project is generated using `yarn create vuepress learn-vuepress` with `blog` theme.
 
 ## Development
 
