@@ -5,6 +5,21 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
-  plugins: []
+  siteName: "Alligator",
+  siteUrl: "https://alligator.io",
+  siteDescription: "Learn about it on Alligator.io! 🐊",
+  
+  transformers: {
+    remark: {}
+  },
+
+  plugins: [
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "blog/**/*.md",
+        typeName: "Post"
+      }
+    }
+  ]
 }

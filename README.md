@@ -81,6 +81,9 @@ https://gridsome.org
 
 Gridsome makes it easy for developers to build static generated websites & apps that are fast by default 🚀
 
+> Note: This framework is much larger compare to VuePress! It also require more setup.
+> Seems to much to setup for simple blog publishing.
+
 ### https://www.netlifycms.org/
 
 Netlify CMS is an open source content management system for your Git workflow that enables you to provide editors with a friendly UI and intuitive workflows.
