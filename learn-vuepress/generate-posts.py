@@ -13,10 +13,10 @@ def create_post(seq):
 date: {fdate}
 tag: 
 	- test
-title: Bulk Test #{seq}
+title: Bulk Test No. {seq}
 ---
 
-> This is test #{seq}
+> This is just a test
 """)
 
 for i in range(1, 1000):

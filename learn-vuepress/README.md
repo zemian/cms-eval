@@ -61,3 +61,12 @@ Upgrading it to latest, but still same issue.
 "vuepress": "^1.5"
 ```
 
+## Review Notes
+
+- Modern and minimalistic looks
+- Easy dev with VueJS and has plugin for extension
+- Active comminity support
+
+- Tags does not work
+- Search only work in build mode
+- The dev server is slow compare to Jekyll
