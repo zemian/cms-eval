@@ -1,6 +1,6 @@
 # hello-vuepress
 
-> This project is generated using `yarn create vuepress learn-vuepress` with docs theme.
+> This project is generated using `yarn create vuepress learn-vuepress` with `docs` theme.
 
 ## Development
 
