@@ -51,13 +51,13 @@ to create the blog source, then publish to here.
 
 ### Static Site Generators Evaluation
 
-* Jeykyll (ruby) https://jekyllrb.com/ 
+* Jekyll (ruby) https://jekyllrb.com/ 
+	- It's a ruby based generator
 	- QuartzScheudler site is using this
-	- It main format is Markdown, and I like asccidoc more.
 
 * Pelican (python) https://blog.getpelican.com/
-	- I like python and thought this would be best for me. But at the time I love asciidoc
-	  but it's not well supported.
+	- It's python based, and it's fast and easy to install
+	- I like python and thought this would be best for me, but its default look is lacking.
 
 * Hugo (goland) https://gohugo.io/
 	- Looks good and has many theme support and it looks good. But I don't know much
