@@ -72,6 +72,9 @@ https://vuepress.vuejs.org/guide/
 
 Use Markdown and VueJS to power blog or documentation site.
 
+> Note: Great for docs, but for blog, I find Tags not working. And "dev" mode
+> doesn't support search?
+
 ### Gridsome 
 
 https://gridsome.org
