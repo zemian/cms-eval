@@ -15,11 +15,18 @@ jekyll --version
 
 	bundle exec jekyll serve
 
-
 ## To add blog post
 
 Just create Markdown file under `_posts` folder.
 
-## Questions
+## Bulk Test
 
-- How to see/search by categories?
+`python3 generate-posts.py _posts`
+
+## Reviews (based on based installation)
+
+- Server is fast to start up and run
+- Live file reload
+
+- There is no default pagination
+- How to see/search by categories
