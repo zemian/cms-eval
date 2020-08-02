@@ -1,12 +1,19 @@
-import sys
+import sys, os, os.path
 from datetime import date, timedelta
 
 dir = sys.argv[1]
 start_date = date(2020, 1, 1)
 
 def create_post(seq):
-	fdate = (start_date - timedelta(days=seq)).strftime("%Y-%m-%d")
-	fname = "{}/{}-test-{}.md".format(dir, fdate, seq)
+	dt = (start_date - timedelta(days=seq))
+	fyear = dt.strftime("%Y")
+	fdate = dt.strftime("%Y-%m-%d")
+	fname = "{}/{}/{}-test-{}.md".format(dir, fyear, fdate, seq)
+
+	subdir = "{}/{}".format(dir, fyear)
+	if not os.path.exists(subdir):
+		os.makedirs(subdir)
+
 	print(f"Generating file: {fname}")
 	with open(fname, 'w') as f:
 		f.write(f"""---
