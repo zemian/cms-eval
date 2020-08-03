@@ -16,8 +16,7 @@ def create_post(seq):
 
 	print(f"Generating file: {fname}")
 	with open(fname, 'w') as f:
-		f.write(f"""---
-title=Bulk Test No. {seq}
+		f.write(f"""title=Bulk Test No. {seq}
 date={fdate}
 type=post
 tags=blog
@@ -33,8 +32,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus.
 * [Example.org](http://example.org)
 
 
-```javascript
-console.log("Hello World");
+```java
+package org.jbake;
+
+public class Oven {
+	public static void main(String[] args) {
+		System.out.print("Baking!");
+  }
+}
 
 ```
 
