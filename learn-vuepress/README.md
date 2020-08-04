@@ -2,7 +2,7 @@
 
 > This project is generated using `yarn create vuepress learn-vuepress` with `blog` theme.
 
-## Development
+## Setup
 
 ```bash
 yarn install
@@ -10,37 +10,10 @@ yarn dev
 yarn build
 ```
 
-For more details, please head VuePress's [documentation](https://vuepress.vuejs.org/guide).
-
-## Dev vs Build
-
-Some feature (search) does not work properly when you run dev mode? It's find
-in after you build the site.
-
-
-## About VuePress Blog
-
-The default setup is using this [@vuepress/theme-blog](https://vuepress-theme-blog.ulivz.com/#using-vuepress-theme-blog), which superseded the old
-`@vuepress/plugin-blog`.
-
 To create new blog post, simply create new Markdown file under `blog/_posts` folder, with
-`<year>-<month>-<date>-topic.md` file format. Each post would need a section called `frontmatter`
-that looks like this:
+`<year>-<month>-<date>-topic.md` file format.
 
-```
----
-date: 2020-08-02
-tag: 
-  - blog
-  - vuepress
-title: Hello World
----
-```
-
-## About VuePress installation
-
-The `yarn create vuepress` might not use latest version of dependencies!
-So you need to upgrade manually and re-run yarn install
+For more details, please head VuePress's [documentation](https://vuepress.vuejs.org/guide).
 
 ## Tags problem in VuePress and Blog 
 
@@ -48,12 +21,18 @@ See https://github.com/vuejs/vuepress/issues/2553
 
 Fix: Replace "tag" with "tags" in frontmatter section.
 
+## What is theme-blog and plugin-blog
+
+The plugin-blog is reusable unit of plugin that supports common blog features in VuePress. While
+the theme-blog is buit on top to provide more UI looks and styling.
+
+## Upgrading VuePress
+
+The `yarn create vuepress` might not use latest version of dependencies!
+So you need to upgrade manually update and re-run `yarn install`
+
 ## Review Notes
 
 - Modern and minimalistic looks
 - Easy dev with VueJS and has plugin for extension
-- Active comminity support
-
-- Tags does not work
-- Search only work in build mode
-- The dev server is slow compare to Jekyll
+- Active community support
