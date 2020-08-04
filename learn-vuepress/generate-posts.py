@@ -25,7 +25,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus.
 * [Example.org](http://example.org)
 
 
-```javascript
+```js
 console.log("Hello World");
 
 ```
