@@ -1,8 +1,9 @@
 ---
-date: 2019-11-1
-tag: 
-	- dateformat
 title: DateFormatter Sorting Problem
+tags:
+  - dateformat
+  - sort
+date: 2019-11-1
 ---
 
 Hum... if you name your month and date without prefix zero, then it will not
