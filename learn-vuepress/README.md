@@ -44,22 +44,9 @@ So you need to upgrade manually and re-run yarn install
 
 ## Tags problem in VuePress and Blog 
 
-The following versions seems to have problem generating tags in blog
+See https://github.com/vuejs/vuepress/issues/2553
 
-```
-"vuepress": "^1.3.1",
-"@vuepress/theme-blog": "^2.1.0"
-```
-
-When running dev mode, it gives a blank page. When running build mode, it gives a same
-page as home page.
-
-Upgrading it to latest, but still same issue.
-
-```
-"@vuepress/theme-blog": "^2.3",
-"vuepress": "^1.5"
-```
+Fix: Replace "tag" with "tags" in frontmatter section.
 
 ## Review Notes
 
