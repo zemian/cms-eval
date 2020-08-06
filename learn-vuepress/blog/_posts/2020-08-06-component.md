@@ -14,3 +14,8 @@ NOTE: To access the nested folder with dash separator.
 
 <Foo-Bar>
 </Foo-Bar>
+
+## my-component
+
+<my-component>
+</my-component>
