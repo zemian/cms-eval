@@ -49,7 +49,6 @@ module.exports = {
     },
   },
   markdown: {
-    // options for markdown-it-anchor
-    // anchor: { permalink: true }
+    linkify: true
   }
 }
