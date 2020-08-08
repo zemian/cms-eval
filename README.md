@@ -18,12 +18,15 @@ One of my earlier blog (I wrote about Scala programming then).
 I moved the blogging into google Blogger for easy use and looks compare
 to jroller.
 
+I stayed with this blogger for few years. Wrote mostly on Java and related programming
+topics.
+
 ### https://lesscodelessbug.wordpress.com/
 
-I tried wordpress, but didn't like it much then move back to Blogger.
+I tried little bit of wordpress, but didn't like it much then move back to Blogger.
 
-I stayed with this for few years. Wrote mostly on Java and related programming
-topics.
+I did some more WordPress study on a separate repostiroy at https://github.com/zemian/learn-wordpress
+
 
 ### https://github.com/zemian/adocblog
 
