@@ -36,3 +36,11 @@ So you need to upgrade manually update and re-run `yarn install`
 - Modern and minimalistic looks
 - Easy dev with VueJS and has plugin for extension
 - Active community support
+
+## About yarn vs npm
+
+As of today, `yarn` is many times slower in my own MacOX system compare to `npm`.
+Sadly there are many open issue similar to this https://github.com/yarnpkg/yarn/issues/7921
+
+* `yarn install` takes 321.89s
+* `npm install` taskes 133.429s
