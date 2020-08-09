@@ -31,4 +31,7 @@ http://localhost:8080/blog/awesome-article
 
 ## Use a blog starter?
 
+By default the gridsome does not handle Blog UI. You needs to customize it more to get it
+to have a blog going.
+
 https://github.com/gridsome/gridsome-starter-blog
