@@ -44,3 +44,8 @@ Sadly there are many open issue similar to this https://github.com/yarnpkg/yarn/
 
 * `yarn install` takes 321.89s
 * `npm install` taskes 133.429s
+
+## Concerning Issues with VuePress
+
+* https://github.com/vuejs/vuepress/issues/2561
+
