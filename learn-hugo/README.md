@@ -6,6 +6,8 @@ See https://gohugo.io/getting-started/quick-start/
 
 Run `hugo server -D`
 
+Open http://localhost:1313
+
 ## Review Notes
 
 - Default Blog Site looks good
