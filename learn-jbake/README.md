@@ -4,9 +4,8 @@ This project is generated using `jbake -i`
 
 * Need to install JDK first!
 
-1. Download jbake package from https://jbake.org/download.html
-2. Set PATH=/pathto/jbake/bin:$PATH
-4. Run `jbake -i`
+1. Run `brew install jbake`
+2. Run `jbake -i`
 3. Run `jbake -b -s`
 
 ## Review Notes
