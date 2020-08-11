@@ -58,3 +58,15 @@ Sadly there are many open issue similar to this https://github.com/yarnpkg/yarn/
 * [The date in URL path to blog post is off](https://github.com/vuejs/vuepress/issues/2561)
 	- But this seems to be more of the theme-blog or plugin-blog issues than vuepress itself.
 * `vuepress dev blog` will not work after `vuepress eject blog`
+
+* The parsing of Markdown is strict, meaning if there is any error, the page will not
+render in HTML server, but no error message is display on console either :(
+
+* THe `<pre>` default color is too light. Workaround:
+
+	```
+	<pre style="color: white;">
+	{{ $page }}
+	</pre>
+	```
+	
