@@ -2,6 +2,14 @@
 
 > This project is generated using `yarn create vuepress learn-vuepress` with `blog` theme.
 
+NOTE: If `yarn` is slow. Alternative setup is using NPM:
+```
+npx create-vuepress learn-vuepress
+cd $_
+npm install
+npm run dev
+```
+
 ## Setup
 
 ```bash
@@ -47,5 +55,6 @@ Sadly there are many open issue similar to this https://github.com/yarnpkg/yarn/
 
 ## Concerning Issues with VuePress
 
-* https://github.com/vuejs/vuepress/issues/2561
-
+* [The date in URL path to blog post is off](https://github.com/vuejs/vuepress/issues/2561)
+	- But this seems to be more of the theme-blog or plugin-blog issues than vuepress itself.
+* `vuepress dev blog` will not work after `vuepress eject blog`
