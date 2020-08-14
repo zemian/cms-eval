@@ -1,13 +1,24 @@
-This file is generated using `jekyll new learn-jekyll`.
+[Jekyll](https://jekyllrb.com/) Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites.
 
-NOTE: Installation On MacOSX
+This folder files is generated using `jekyll new learn-jekyll`.
+
+## How to setup on MacOSX
 
 ```
 brew install ruby
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 gem install bundler jekyll
+jekyll --version
+```
+
+NOTE: Homebrew install gem in location where it is not in PATH, so
+we need to manually fix it.
+
+```
 gem which jekyll
-alias jekyll=/usr/local/lib/ruby/gems/2.7.0/gems/jekyll-4.1.1/exe/jekyll
+# => /usr/local/lib/ruby/gems/2.7.0/gems/jekyll-4.1.1/lib/jekyll.rb
+# Look for the executable then link it
+ln -s /usr/local/lib/ruby/gems/2.7.0/gems/jekyll-4.1.1/exe/jekyll /usr/local/opt/ruby/bin
 jekyll --version
 ```
 
