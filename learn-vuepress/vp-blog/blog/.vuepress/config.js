@@ -3,6 +3,7 @@ module.exports = {
   description: 'This is a blog example built by VuePress',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
+    dateFormat: 'dddd MMM DD YYYY hh:mm:ss Z',
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#modifyblogpluginoptions
      */
