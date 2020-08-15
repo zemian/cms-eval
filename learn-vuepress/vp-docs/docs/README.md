@@ -13,3 +13,7 @@ features:
   details: Feature 3 Description
 footer: Made by  with ❤️
 ---
+
+This is readme file
+
+* Say [hello](hello.md)
