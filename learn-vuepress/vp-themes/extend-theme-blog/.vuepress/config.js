@@ -37,10 +37,32 @@ module.exports = {
 		[
 			"vuepress-plugin-container",
 			{
-		        type: 'tip',
-		        defaultTitle: 'DEMO-TIP'
+        type: 'tip',
+        defaultTitle: 'TIP'
 			}
-		]
+		],
+    [
+      "vuepress-plugin-container",
+      {
+        type: 'warning',
+        defaultTitle: 'WARNING'
+      }
+    ],
+    [
+      "vuepress-plugin-container",
+      {
+        type: 'danger',
+        defaultTitle: 'WARNING'
+      }
+    ],
+    [
+      "vuepress-plugin-container",
+      {
+        type: 'details',
+        before: info => `<details class="custom-block details">${info ? `<summary>${info}</summary>` : ''}\n`,
+        after: () => '</details>\n'
+      }
+    ],
 	],
 
 	themeConfig: {
