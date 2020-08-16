@@ -1,10 +1,4 @@
-We should inherit all that from `theme-default`.
-
-
-::: tip
-We would like to extend `theme-blog` to make this work!
-:::
-
+We should inherit all that from `theme-blog`.
 
 NOTE: This `theme-blog` does not inherit from `theme-default`!
 
