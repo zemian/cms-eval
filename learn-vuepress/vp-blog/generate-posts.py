@@ -6,7 +6,7 @@ start_date = date(2020, 1, 1)
 
 def create_post(seq):
 	fdate = (start_date - timedelta(days=seq)).strftime("%Y-%m-%d")
-	fname = "{}/{}-test-{}.md".format(dir, fdate, seq)
+	fname = "{}/{}-bulktest-{}.md".format(dir, fdate, seq)
 	print(f"Generating file: {fname}")
 	with open(fname, 'w') as f:
 		f.write(f"""---
