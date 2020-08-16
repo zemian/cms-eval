@@ -1,1 +1,1 @@
-<pre><code>{{$site}}</code></pre>
+> vp-blog-plugin demo

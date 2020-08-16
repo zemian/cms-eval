@@ -13,3 +13,6 @@ features:
   details: Feature 3 Description
 footer: Made by  with ❤️
 ---
+
+[sample.md](./sample.md)
+[docs](/docs)

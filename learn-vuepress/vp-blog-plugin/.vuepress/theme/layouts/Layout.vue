@@ -12,7 +12,13 @@
 
     <!-- <Pagination v-if="$pagination.length > 1"/> -->
 
-  <pre><code>{{$site}}</code></pre>
+    <h1>Custom Layout for vp-blog-plugin demo</h1>
+
+    <a href="/2020/08/12/page">Test Page</a>
+    <a href="/2020/08/13/hello">Hello Page</a>
+    <a href="/2020/08/13/wiki-post">Wiki Page</a>
+
+    <pre><code>{{$site}}</code></pre>
 
   </div>
 </template>
