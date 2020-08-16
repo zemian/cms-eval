@@ -1,5 +1,5 @@
 module.exports = {
-	title: "Explore VuePress Themes",
+	title: "Default Theme Demo",
 
 	// ## VuePress default built-in theme
 	// You can run this setup without "vuepress" package in npm. Just the "npx vuepress" will work.
