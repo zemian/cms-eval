@@ -1,10 +1,11 @@
+# About cmd-eval
+
 A history of many CMS - Content Management System I have used and evaluated.
 
 I have used quite a few CMS for blogging purpose in the past. Some I like,
 some not so much.
 
 NOTE: My current blog site is at https://zemian.github.io
-
 
 ## Hisotry of CMS I used
 
@@ -93,3 +94,10 @@ Note: It's a frontend app that interactive with other Site Generator ad data lay
 ### https://www.contentful.com/
 
 A content management system with REST API support.
+
+## Evaluating Markdown parsers
+
+* markdown-preview - a simple web server that serve markdown files. (Project has been archived by owner?)
+    - https://github.com/yuanchuan/markdown-preview
+* Markdown-it - VuePress uses this
+* Marked - markdown-preview tool uses this. 

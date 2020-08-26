@@ -69,4 +69,26 @@ render in HTML server, but no error message is display on console either :(
 	{{ $page }}
 	</pre>
 	```
-	
+
+## Dependencies
+
+```
+learn-vuepress@0.0.1 /Users/zedeng/src/zemian/cms-eval/learn-vuepress/vp-blog
+├─┬ @vuepress/theme-blog@2.3.1
+│ ├── @vuepress/plugin-blog@1.9.2
+│ ├── @vuepress/plugin-medium-zoom@1.0.0
+│ ├── @vuepress/plugin-nprogress@1.0.0
+│ ├── @vuepress/plugin-pwa@1.0.0
+│ ├── @vuepress/plugin-search@1.0.0
+│ ├── dayjs@1.8.33
+│ ├── remove-markdown@0.3.0
+│ ├── vue-feather-icons@4.22.0
+│ └── vuepress-plugin-smooth-scroll@0.0.9
+└─┬ vuepress@1.5.2
+  ├── @vuepress/core@1.5.2
+  ├── @vuepress/theme-default@1.5.2
+  ├── cac@6.6.1
+  ├── envinfo@7.7.2
+  ├── opencollective-postinstall@2.0.3
+  └── update-notifier@4.1.0
+```
