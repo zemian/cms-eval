@@ -1,4 +1,18 @@
-# learn-vuepress
+TODO: Why do I get this error?
+
+```
+zedeng@zedeng-mac vp-blog % npx vuepress -v
+
+
+Vue packages version mismatch:
+
+- vue@2.6.11
+- vue-server-renderer@2.6.12
+
+This may cause things to work incorrectly. Make sure to use the same version for both.
+```
+
+# learn-vuepress/vp-blog
 
 > This project is generated using `yarn create vuepress learn-vuepress` with `blog` theme.
 
