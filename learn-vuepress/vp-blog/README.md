@@ -1,17 +1,3 @@
-TODO: Why do I get this error?
-
-```
-zedeng@zedeng-mac vp-blog % npx vuepress -v
-
-
-Vue packages version mismatch:
-
-- vue@2.6.11
-- vue-server-renderer@2.6.12
-
-This may cause things to work incorrectly. Make sure to use the same version for both.
-```
-
 # learn-vuepress/vp-blog
 
 > This project is generated using `yarn create vuepress learn-vuepress` with `blog` theme.
@@ -132,3 +118,21 @@ learn-vuepress@0.0.1 /Users/zedeng/src/zemian/cms-eval/learn-vuepress/vp-blog
   ├── opencollective-postinstall@2.0.3
   └── update-notifier@4.1.1
 ```
+
+## TODO: Why do I get this error?
+
+```
+zedeng@zedeng-mac vp-blog % npx vuepress -v
+
+
+Vue packages version mismatch:
+
+- vue@2.6.11
+- vue-server-renderer@2.6.12
+
+This may cause things to work incorrectly. Make sure to use the same version for both.
+```
+
+The fix is to remove `node_modules` and `package-lock.json` and then reinstall it.
+
+Also remove the global `vuepress` will help.
