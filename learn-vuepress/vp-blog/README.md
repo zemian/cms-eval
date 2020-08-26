@@ -72,6 +72,8 @@ render in HTML server, but no error message is display on console either :(
 
 ## Dependencies
 
+VuePress 1.5.2 and theme-blog 2.3.1
+
 ```
 learn-vuepress@0.0.1 /Users/zedeng/src/zemian/cms-eval/learn-vuepress/vp-blog
 ├─┬ @vuepress/theme-blog@2.3.1
@@ -91,4 +93,28 @@ learn-vuepress@0.0.1 /Users/zedeng/src/zemian/cms-eval/learn-vuepress/vp-blog
   ├── envinfo@7.7.2
   ├── opencollective-postinstall@2.0.3
   └── update-notifier@4.1.0
+```
+
+VuePress 1.5.4 and theme-blog 2.3.2
+
+```
+learn-vuepress@0.0.1 /Users/zedeng/src/zemian/cms-eval/learn-vuepress/vp-blog
+├─┬ @vuepress/theme-blog@2.3.2
+│ ├── @vuepress/plugin-blog@1.9.2
+│ ├── @vuepress/plugin-medium-zoom@1.5.4
+│ ├── @vuepress/plugin-nprogress@1.5.4
+│ ├── @vuepress/plugin-pwa@1.5.4
+│ ├── @vuepress/plugin-search@1.5.4
+│ ├── dayjs@1.8.34
+│ ├── remove-markdown@0.3.0
+│ ├── vue-feather-icons@4.22.0
+│ └── vuepress-plugin-smooth-scroll@0.0.9
+├── esm@3.2.25
+└─┬ vuepress@1.5.4
+  ├── @vuepress/core@1.5.4
+  ├── @vuepress/theme-default@1.5.4
+  ├── cac@6.6.1
+  ├── envinfo@7.7.3
+  ├── opencollective-postinstall@2.0.3
+  └── update-notifier@4.1.1
 ```
