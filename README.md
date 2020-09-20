@@ -1,4 +1,4 @@
-# About cmd-eval
+# About cms-eval
 
 A history of many CMS - Content Management System I have used and evaluated.
 
@@ -24,10 +24,9 @@ topics.
 
 ### https://lesscodelessbug.wordpress.com/
 
-I tried little bit of wordpress, but didn't like it much then move back to Blogger.
+I tried little bit of wordpress, but didn't like it much at the time, and then move back to Blogger.
 
-I did some more WordPress study on a separate repostiroy at https://github.com/zemian/learn-wordpress
-
+However, I think WordPress is pretty interesting application in itself. And I did some more WordPress study on a separate repostiroy at https://github.com/zemian/learn-wordpress as a CMS and site development platform.
 
 ### https://github.com/zemian/adocblog
 
