@@ -24,9 +24,15 @@ topics.
 
 ### https://lesscodelessbug.wordpress.com/
 
+And another one at https://zemiancode.wordpress.com/
+
 I tried little bit of wordpress, but didn't like it much at the time, and then move back to Blogger.
 
-However, I think WordPress is pretty interesting application in itself. And I did some more WordPress study on a separate repostiroy at https://github.com/zemian/learn-wordpress as a CMS and site development platform.
+The main issue I have with WordPress is that it's not programmer friendly blogger by default. You need some theme and plugins to make it so. To do that, you need your own hosting. The wordpress.com free account is actually very limited what you can customize.
+
+One big advantage of WP is user does not need to worry about inner working of the application. You litterally just write and publish.
+
+I think WordPress is pretty interesting application in itself. And I did some more WordPress study on a separate repostiroy at https://github.com/zemian/learn-wordpress as a CMS and site development platform.
 
 ### https://github.com/zemian/adocblog
 
