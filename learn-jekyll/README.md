@@ -41,3 +41,8 @@ Just create Markdown file under `_posts` folder.
 
 - There is no default pagination
 - How to see/search by categories
+
+## GitHub and Jykyll
+
+https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site-with-jekyll
+

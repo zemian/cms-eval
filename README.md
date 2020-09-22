@@ -51,10 +51,6 @@ This really bugs me.
 
 This is just a static web site hosted by GitHub (Pages).
 
-I used https://github.com/zemian/zemian.github.io-site and jbake (static site generator) 
-to create the blog source, then publish to here.
-
-
 
 ## CMS Evaluation
 
@@ -62,24 +58,31 @@ to create the blog source, then publish to here.
 
 * Jekyll (ruby) https://jekyllrb.com/ 
 	- It's a ruby based generator
-	- QuartzScheudler site is using this
+	- It's fast!
+	- GitHub Pages supports this natively!
+	- The Quartz Scheduler site is using this
 
 * Pelican (python) https://blog.getpelican.com/
 	- It's python based, and it's fast and easy to install
 	- I like python and thought this would be best for me, but its default look is lacking.
+	- The Markdown support is only so so.
 
 * Hugo (goland) https://gohugo.io/
 	- Looks good and has many theme support and it looks good. But I don't know much
 	of go programming.
+	- You need extra repository theme to customize it.
 
 * jbake https://jbake.org/
 	- Well java is my bread and butter lang, so I thought I will stick with this. Also
-	the asciidoc support is good. So I choose this to make my github pages. 
+	the asciidoc support is good.
+	- It can be complicated if you do not know some basic Java. 
 
 * VuePress https://vuepress.vuejs.org/guide/
 	- Use Markdown and VueJS to power blog or documentation site.
+	- The startup can be slow.
+	- The generate output has lots of changed files per one new post!
 
-### Gridsome 
+### Gridsome (JS)
 
 https://gridsome.org
 
@@ -88,7 +91,7 @@ Gridsome makes it easy for developers to build static generated websites & apps 
 > Note: This framework is much larger compare to VuePress! It also require more setup.
 > Seems to much to setup for simple blog publishing. But might be good to create custom site.
 
-### https://www.netlifycms.org/
+### https://www.netlifycms.org/  (JS and Hosting Platform)
 
 Netlify CMS is an open source content management system for your Git workflow that enables you to provide editors with a friendly UI and intuitive workflows.
 
@@ -96,7 +99,7 @@ A ReactJS based app.
 
 Note: It's a frontend app that interactive with other Site Generator ad data layer!
 
-### https://www.contentful.com/
+### https://www.contentful.com/ (JS and Hosting Platform)
 
 A content management system with REST API support.
 
